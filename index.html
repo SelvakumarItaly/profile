@@ -3,30 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Selvakumar Thakshnamurthy - About Me</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f8f8ff; color: #333; }
-        header, section { padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 5px; }
-        header { background-color: #ffccd5; }
-        h1 { color: #333; }
-        nav a { margin: 10px; color: #1a73e8; text-decoration: none; }
-        nav a:hover { text-decoration: underline; }
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            color: #343a40;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #343a40;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #e8491d;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #main {
+            padding: 20px;
+        }
+        footer {
+            background: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Selvakumar Thakshnamurthy</h1>
-        <p>PhD Student, University of Catania</p>
-        <nav>
-            <a href="index.html">About Me</a>
-            <a href="research.html">Research Experience</a>
-            <a href="work.html">Work Experience</a>
-            <a href="education.html">Education</a>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1>Selvakumar Thakshnamurthy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="work.html">Work Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a PhD student specializing in Computer Science with a focus on enhancing data integrity and security in healthcare through blockchain technology.</p>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>About Me</h1>
+            <img src="my_photo.png" alt="Photo of Selvakumar Thakshnamurthy">
+        </div>
     </section>
+
+    <div id="main" class="container">
+        <h2>Welcome to My Professional Profile</h2>
+        <p>
+            I am Selvakumar Thakshnamurthy, a dedicated PhD research student at the University of Catania, specializing in enhancing document management and data integrity through distributed ledger technology and blockchain applications. With a robust background in data security, particularly in healthcare emergency services, I have a proven track record of leveraging cutting-edge technology to improve data transparency, security, and authenticity.
+        </p>
+        <p>
+            My journey in the field of computer science began with my Bachelor's in Science from Madras Christian College, followed by a Master's in Computer Application from the University of Madras. Over the years, I have honed my skills in blockchain, data analysis, and cloud computing, which I have applied in various professional roles at Clarivate Analytics and Thomson Reuters.
+        </p>
+        <p>
+            My current research focuses on designing blockchain-enabled systems for healthcare emergency services, which has the potential to revolutionize the way emergency data is managed and secured. I am passionate about integrating AI into my applications to further enhance their capabilities and ensure that critical healthcare data remains secure and reliable.
+        </p>
+    </div>
+
+    <footer>
+        <p>Selvakumar Thakshnamurthy &copy; 2024</p>
+    </footer>
 </body>
 </html>

@@ -3,41 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education</title>
+    <title>Selvakumar Thakshnamurthy - Education</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f8f8ff; color: #333; }
-        header, section { padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 5px; }
-        header { background-color: #ffccd5; }
-        h1 { color: #333; }
-        nav a { margin: 10px; color: #1a73e8; text-decoration: none; }
-        nav a:hover { text-decoration: underline; }
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            color: #343a40;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #343a40;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #28a745;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #main {
+            padding: 20px;
+        }
+        footer {
+            background: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Selvakumar Thakshnamurthy</h1>
-        <p>PhD Student, University of Catania</p>
-        <nav>
-            <a href="index.html">About Me</a>
-            <a href="research.html">Research Experience</a>
-            <a href="work.html">Work Experience</a>
-            <a href="education.html">Education</a>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1>Selvakumar Thakshnamurthy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="work.html">Work Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Education</h2>
-        <p><strong>PhD in Computer Science, University of Catania</strong> (Expected Graduation: June 2024)</p>
-        <p><strong>Master of Computer Application, University of Madras</strong> (January 2008 – December 2011)</p>
-        <p><strong>Bachelor of Science (BSc), Madras Christian College</strong> (June 2002 – May 2005)</p>
-        <p><strong>Additional Certifications</strong></p>
-        <ul>
-            <li>Blockchain Specialization, State University of New York (February 2022)</li>
-            <li>Smart Contracts, University at Buffalo (April 2022)</li>
-            <li>Decentralized Applications (Dapps), University at Buffalo (October 2022)</li>
-            <li>Introduction to Programming Using Python, GUVI (July 2022)</li>
-            <li>Building an Ethereum Blockchain App, LinkedIn Learning (December 2022)</li>
-            <li>The Blockchain, University of California, Irvine (February 2023)</li>
-        </ul>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Education</h1>
+        </div>
     </section>
+
+    <div id="main" class="container">
+        <h2>University of Catania</h2>
+        <p>
+            <strong>PhD in Computer Science</strong><br>
+            <em>2019 - Present</em>
+        </p>
+        <p>
+            My doctoral research focuses on enhancing document management and data integrity through distributed ledger technology and blockchain applications. This research has practical implications in healthcare emergency services, aiming to improve the efficiency and security of data management in critical scenarios.
+        </p>
+
+        <h2>University of Madras</h2>
+        <p>
+            <strong>Master of Computer Applications (MCA)</strong><br>
+            <em>2003 - 2006</em>
+        </p>
+        <p>
+            This program equipped me with advanced knowledge in computer science, including software development, data structures, algorithms, and database management. My master's thesis involved developing a web-based application for Crime Management System(CMS).
+        </p>
+
+        <h2>Madras Christian College</h2>
+        <p>
+            <strong>Bachelor of Science in Computer Science</strong><br>
+            <em>2000 - 2003</em>
+        </p>
+        <p>
+            During my undergraduate studies, I gained a solid foundation in computer science principles, including programming, networking, and system design. I actively participated in coding competitions and technical symposiums, which enhanced my problem-solving skills and teamwork abilities.
+        </p>
+    </div>
+
+    <footer>
+        <p>Selvakumar Thakshnamurthy &copy; 2024</p>
+    </footer>
 </body>
 </html>

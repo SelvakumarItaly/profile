@@ -3,30 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Selvakumar Thakshnamurthy - Research</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f8f8ff; color: #333; }
-        header, section { padding: 20px; margin: 20px; border: 1px solid #ddd; border-radius: 5px; }
-        header { background-color: #ffccd5; }
-        h1 { color: #333; }
-        nav a { margin: 10px; color: #1a73e8; text-decoration: none; }
-        nav a:hover { text-decoration: underline; }
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            color: #343a40;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #343a40;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #main {
+            padding: 20px;
+        }
+        footer {
+            background: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Selvakumar Thakshnamurthy</h1>
-        <p>PhD Student, University of Catania</p>
-        <nav>
-            <a href="index.html">About Me</a>
-            <a href="research.html">Research Experience</a>
-            <a href="work.html">Work Experience</a>
-            <a href="education.html">Education</a>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1>Selvakumar Thakshnamurthy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="work.html">Work Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a PhD student specializing in Computer Science with a focus on enhancing data integrity and security in healthcare through blockchain technology.</p>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Research Experience</h1>
+        </div>
     </section>
+
+    <div id="main" class="container">
+        <h2>PhD Research at University of Catania</h2>
+        <p>
+            <strong>Project Title:</strong> Enhancing Document Management and Data Integrity through Distributed Ledger Technology and Blockchain Applications
+        </p>
+       
+        <p>
+            My research aims to design and implement a distributed software infrastructure for secure document management, focusing on transparency, security, and authenticity using blockchain technology. Key responsibilities and achievements include:
+        </p>
+        <ul>
+            <li>System Design and Development: Designed and developed a blockchain-enabled system for healthcare emergency services.</li>
+            <li>Requirements Gathering: Conducted comprehensive sessions with stakeholders to meet specific needs of emergency healthcare services.</li>
+            <li>Prototype Implementation and Testing: Developed and tested a functional prototype, evaluating performance, scalability, and usability.</li>
+            <li>Real-World Application: Applied the system in a real-world healthcare emergency setting, demonstrating tangible benefits.</li>
+            <li>Data Examination and Validation: Analyzed data to validate system effectiveness in improving emergency response coordination.</li>
+        </ul>
+
+        <h2>PhD Exchange Research at Newcastle University</h2>
+       
+        <p>
+            During my exchange program at Newcastle University, I focused on leveraging blockchain technology to enhance ambulance dispatch efficiency and ensure data integrity in healthcare emergency services. Key responsibilities and achievements include:
+        </p>
+        <ul>
+            <li>Implemented a simulated research design to improve ambulance dispatch efficiency.</li>
+            <li>Developed smart contracts on the Ethereum Blockchain for secure patient data storage.</li>
+            <li>Enhanced teaching and pedagogical skills through the "Introduction to Learning and Teaching" workshop.</li>
+        </ul>
+
+        <h2>Accepted Paper</h2>
+        <p>
+            <strong>Title:</strong> Leveraging Blockchains for Decentralized Health Care and Emergency Services Management
+        </p>
+        <p>
+            This paper has been accepted for presentation at the WETICE 2024 conference. It explores the integration of blockchain technology into healthcare systems to ensure secure and efficient emergency response.
+        </p>
+    </div>
+
+    <footer>
+        <p>Selvakumar Thakshnamurthy &copy; 2024</p>
+    </footer>
 </body>
 </html>
